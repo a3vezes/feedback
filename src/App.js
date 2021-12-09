@@ -1,10 +1,14 @@
 import React from 'react'
+import Header from './components/Header'
 
 function App() {
     return (
-        <h1>
-           Hello From App 
-        </h1>
+        <>
+            <Header />
+            <h1>
+            Hello From App 
+            </h1>
+        </>
     )
 }
 
