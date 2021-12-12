@@ -8,7 +8,7 @@ function FeedbackList({data}) {
     return (
         <div className="feedback-list">
             {data.map((data) => (
-                <FeedbackItem key={data.id} text={data.text} rating={data.rating}/>
+                <FeedbackItem key={data.id} text={data.text} rating={data.rating} />
             ))}
         </div>
     )
