@@ -1,13 +1,15 @@
 import React from 'react'
 import Header from './components/Header'
+import FeedbackList from './components/FeedbackList'
+import FeedbackData from './data/FeedbackData'
 
 function App() {
     return (
         <>
             <Header />
-            <h1>
-            Hello From App 
-            </h1>
+            <main className='container'>
+                <FeedbackList data={FeedbackData}/>
+            </main>
         </>
     )
 }
